@@ -10,6 +10,7 @@ export const Header = () => {
         <div className="nav__links">
           <Link to={routes.home()}>Home</Link>
           <Link to={routes.about()}>About</Link>
+          <Link to={routes.posts()}>Posts</Link>
         </div>
       </nav>
     </header>
